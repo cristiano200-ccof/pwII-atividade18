@@ -90,3 +90,48 @@ details {
     border-radius: 5px;
     cursor: pointer;
 }
+
+ 
+        /* Estilos simples adicionados para organizar o carrossel */
+        .carrossel-container {
+            display: none;
+            background: #161f33;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .carrossel-container img {
+            width: 100%;
+            max-height: 500px;
+            object-fit: contain;
+            border-radius: 6px;
+            margin: 15px 0;
+            background-color: #000;
+        }
+        .botoes-carrossel {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        .btn-nav {
+            background-color: #007acc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn-nav:hover {
+            background-color: #005999;
+        }
+        .link-imagem {
+            display: inline-block;
+            color: #28a745;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    
